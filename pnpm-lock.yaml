@@ -100,7 +100,7 @@ importers:
         specifier: ^5.4.8
         version: 5.4.8(@types/node@22.7.4)
       vite-tsconfig-paths:
-        specifier: ^4.2.1
+        specifier: ^4.3.2
         version: 4.3.2(typescript@5.6.2)(vite@5.4.8(@types/node@22.7.4))
       wrangler:
         specifier: 3.57.1
