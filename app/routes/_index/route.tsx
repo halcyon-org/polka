@@ -1,13 +1,8 @@
-import type { MetaFunction } from "@remix-run/cloudflare";
+import { ReactNode } from "react";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
+import "./styles.css";
 
-export default function Index() {
+export default function Page(): ReactNode {
   return (
     <div>
       <div>
