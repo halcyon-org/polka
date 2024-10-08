@@ -20,7 +20,7 @@
     "@remix-run/cloudflare": "^2.12.1",
     "@remix-run/cloudflare-pages": "^2.12.1",
     "@remix-run/react": "^2.12.1",
-    "isbot": "^4.1.0",
+    "isbot": "^4.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "the-new-css-reset": "^1.11.3"
