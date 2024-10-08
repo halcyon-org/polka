@@ -30,7 +30,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./build/client --project-name=belifeline-lp
+          command: pages deploy ./build/client --project-name=polka
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:
