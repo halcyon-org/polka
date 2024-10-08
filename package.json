@@ -17,6 +17,7 @@
     "typegen": "wrangler types"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "@remix-run/cloudflare": "^2.12.1",
     "@remix-run/cloudflare-pages": "^2.12.1",
     "@remix-run/react": "^2.12.1",
