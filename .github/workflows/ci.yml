@@ -42,6 +42,18 @@ jobs:
       - name: Run lint
         run: pnpm run lint
 
+  fmt-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shiron-dev/actions/setup-node@v1.0.0
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
+      - name: Run fmt
+        run: pnpm run fmt
+
   all-status-check:
     runs-on: ubuntu-latest
     timeout-minutes: 10

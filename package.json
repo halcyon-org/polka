@@ -7,7 +7,10 @@
     "build": "remix vite:build",
     "deploy": "wrangler pages deploy ./build/client",
     "dev": "remix vite:dev",
-    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "fmt": "prettier --check .",
+    "fmt:fix": "prettier --write .",
     "start": "wrangler pages dev ./build/client",
     "typecheck": "tsc --noEmit",
     "typegen": "wrangler types"
@@ -18,7 +21,8 @@
     "@remix-run/react": "^2.12.1",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240512.0",
@@ -28,8 +32,12 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
+    "@vanilla-extract/css": "^1.16.0",
+    "@vanilla-extract/vite-plugin": "^4.0.16",
     "autoprefixer": "^10.4.19",
+    "classnames": "^2.5.1",
     "eslint": "^8.38.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.1.6",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1",
