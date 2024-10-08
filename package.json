@@ -13,6 +13,7 @@
     "fmt": "prettier --check .",
     "fmt:fix": "prettier --write .",
     "start": "wrangler pages dev ./build/client",
+    "storybook": "storybook dev -p 6006",
     "typecheck": "tsc --noEmit",
     "typegen": "wrangler types"
   },
