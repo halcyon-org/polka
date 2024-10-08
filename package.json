@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
+    "build:storybook": "storybook build",
     "deploy": "wrangler pages deploy ./build/client",
     "dev": "remix vite:dev",
     "lint": "eslint .",
