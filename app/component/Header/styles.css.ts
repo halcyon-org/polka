@@ -40,39 +40,39 @@ export const menu = style({
   display: "flex",
   justifyContent: "space-between", // 等間隔で配置
   alignItems: "center",
-  width: "218px",  // 固定幅218px
-  height: "34px",  // 固定高さ34px
-  backgroundColor: colors.background,  // フレームの背景色
-  borderRadius: "5px",  // 角丸（任意）
-  padding: "0 10px",  // フレーム内の余白
+  width: "218px", // 固定幅218px
+  height: "34px", // 固定高さ34px
+  backgroundColor: colors.background, // フレームの背景色
+  borderRadius: "5px", // 角丸（任意）
+  padding: "0 10px", // フレーム内の余白
   boxSizing: "border-box",
 });
 
 // "使い方" のスタイル
 export const usageMenuItem = style({
-  width: "80px",    
-  height: "34px",   
+  width: "80px",
+  height: "34px",
   color: colors.text, // 色の設定
   fontFamily: "Inter", // フォントファミリー
-  fontSize: "24px",   // フォントサイズ
-  fontWeight: 400,    // フォントウェイト
+  fontSize: "24px", // フォントサイズ
+  fontWeight: 400, // フォントウェイト
   textDecoration: "none",
-  ':hover': {
-    color: colors.primary,  
+  ":hover": {
+    color: colors.primary,
   },
 });
 
 // "利用規約" のスタイル
 export const termsMenuItem = style({
-  width: "117px",   
-  height: "30px",   
+  width: "117px",
+  height: "30px",
   color: colors.text, // 色の設定
   fontFamily: "Inter", // フォントファミリー
-  fontSize: "24px",   // フォントサイズ
-  fontWeight: 400,    // フォントウェイト
+  fontSize: "24px", // フォントサイズ
+  fontWeight: 400, // フォントウェイト
   textDecoration: "none",
   marginLeft: "21px", // 間隔
-  ':hover': {
-    color: colors.primary,  
+  ":hover": {
+    color: colors.primary,
   },
 });
