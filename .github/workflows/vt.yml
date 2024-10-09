@@ -27,10 +27,11 @@ jobs:
             // Prepare the URL and thumbnail with encoding
             const imageUrl = `${ENDPOINT}/${selectedVideo.thumbnail}`;
             const videoUrl = selectedVideo.url;
-            const name = selectedVideo.name;
+            const title = selectedVideo.title;
+            const description = selectedVideo.description;
 
             // Construct the comment body
-            const body = `Here is a random video for you! 🎥\n\n![Thumbnail](${imageUrl})\n\n[Watch Video](${videoUrl})`;
+            const body = `Here is a random video for you! 🎥\n\n[${title}](${videoUrl})\n${description}\n![Thumbnail](${imageUrl})\n\n`;
 
             // Post the comment on the pull request
             github.rest.issues.createComment({
