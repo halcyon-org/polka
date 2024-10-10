@@ -8,5 +8,5 @@
 
 ## キャッチアップ
 
-[React Tutorial](https://ja.react.dev/learn)
-[Remix Tutorial](https://remix.run/docs/en/main/start/tutorial)
+- [React Tutorial](https://ja.react.dev/learn)
+- [Remix Tutorial](https://remix.run/docs/en/main/start/tutorial)
