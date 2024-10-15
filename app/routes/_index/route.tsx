@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Map } from "@/Components/Map";
-import { json, useLoaderData } from "@remix-run/react"; 
+import { json, useLoaderData } from "@remix-run/react";
 
 import "./styles.css";
 
@@ -12,14 +12,12 @@ export async function loader() {
   });
 }
 
-
-
 export default function Page(): ReactNode {
   const data = useLoaderData<typeof loader>();
   const apiKey = data.ENV.REACT_APP_ACCESS_KEY || "";
   return (
     <div>
-      <Map apiKey={apiKey}/>
+      <Map apiKey={apiKey} />
     </div>
   );
 }
