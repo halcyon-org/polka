@@ -16,8 +16,8 @@ export const header = style({
   backgroundColor: colors.background,
   position: "fixed",
   top: 0,
-  width: "1440px", // 固定幅
-  height: "107px", // 固定高さ
+  width: "1440px",
+  height: "107px",
   zIndex: 1000,
 });
 
@@ -25,54 +25,26 @@ export const header = style({
 export const headerMenu = style({
   display: "flex",
   alignItems: "center",
-});
-
-// ロゴのスタイル
-export const logo = style({
-  content: "url('/LogoH.svg')",
-  display: "flex",
-  alignItems: "center",
-  flexShrink: 0, // サイズを縮めない
+  justifyContent: "space-between",
+  width: "100%", // ヘッダーメニュー全体の幅をカバー
 });
 
 // メニューコンテナのスタイル（右端に配置）
 export const menu = style({
   display: "flex",
-  justifyContent: "space-between", // 等間隔で配置
+  gap: "20px", // メニュー項目間の間隔
   alignItems: "center",
-  width: "218px", // 固定幅218px
-  height: "34px", // 固定高さ34px
-  backgroundColor: colors.background, // フレームの背景色
-  borderRadius: "5px", // 角丸（任意）
-  padding: "0 10px", // フレーム内の余白
-  boxSizing: "border-box",
+  marginLeft: "auto", // 右端に配置
+  listStyle: "none", // リストスタイルをリセット
 });
 
-// "使い方" のスタイル
-export const usageMenuItem = style({
-  width: "80px",
-  height: "34px",
-  color: colors.text, // 色の設定
-  fontFamily: "Inter", // フォントファミリー
-  fontSize: "24px", // フォントサイズ
-  fontWeight: 400, // フォントウェイト
+// "使い方" と "利用規約" のスタイル
+export const menuItem = style({
+  color: colors.text,
+  fontFamily: "Inter",
+  fontSize: "24px",
   textDecoration: "none",
-  ":hover": {
-    color: colors.primary,
-  },
-});
-
-// "利用規約" のスタイル
-export const termsMenuItem = style({
-  width: "117px",
-  height: "30px",
-  color: colors.text, // 色の設定
-  fontFamily: "Inter", // フォントファミリー
-  fontSize: "24px", // フォントサイズ
-  fontWeight: 400, // フォントウェイト
-  textDecoration: "none",
-  marginLeft: "21px", // 間隔
-  ":hover": {
-    color: colors.primary,
+  ':hover': {
+    color: colors.primary, // ホバー時に色を変える
   },
 });

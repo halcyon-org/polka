@@ -2,8 +2,8 @@ import { createGlobalTheme, createThemeContract } from "@vanilla-extract/css";
 
 export const vars = createThemeContract({
   color: {
-    background: "",
-    text: "",
+    background: "#D9D9D9",
+    text: "3C4063",
   },
   typography: {
     fontFamily: {
@@ -14,8 +14,8 @@ export const vars = createThemeContract({
 
 createGlobalTheme(":root", vars, {
   color: {
-    background: "#FFFFFF",
-    text: "#000000",
+    text: "#3C4063",
+    background: "#D9D9D9",
   },
   typography: {
     fontFamily: {
