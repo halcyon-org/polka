@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { createRemixStub } from "@remix-run/testing"
+import { createRemixStub } from "@remix-run/testing";
 
 import { Header } from "./Header";
 
