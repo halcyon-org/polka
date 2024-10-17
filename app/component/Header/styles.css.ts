@@ -1,10 +1,11 @@
+import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
 // カラーパレットの定義
 const colors = {
-  primary: "#007BFF",
-  text: "#3C4063",
-  background: "#D9D9D9",
+  primary: vars.color,
+  text: vars.color.text,
+  background: vars.color.background,
 };
 
 // ヘッダーコンテナのスタイル
@@ -16,9 +17,16 @@ export const header = style({
   backgroundColor: colors.background,
   position: "fixed",
   top: 0,
-  width: "1440px",
-  height: "107px",
+  width: "100%",
+  height: "auto",
   zIndex: 1000,
+});
+
+// ロゴのスタイル
+export const logoContainer = style({
+  width: "auto",
+  height: "45px",
+  flexShrink: 0,
 });
 
 // ヘッダーメニューのスタイル（ロゴとメニュー）
@@ -44,7 +52,4 @@ export const menuItem = style({
   fontFamily: "Inter",
   fontSize: "24px",
   textDecoration: "none",
-  ':hover': {
-    color: colors.primary, // ホバー時に色を変える
-  },
 });

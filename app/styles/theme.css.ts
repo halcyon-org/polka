@@ -7,7 +7,7 @@ export const vars = createThemeContract({
   },
   typography: {
     fontFamily: {
-      roboto: "",
+      roboto: "Roboto, sans-serif",
     },
   },
 });
