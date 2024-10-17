@@ -49,7 +49,7 @@ export const menu = style({
 // "使い方" と "利用規約" のスタイル
 export const menuItem = style({
   color: colors.text,
-  fontFamily: "Inter",
+  fontFamily: vars.typography.fontFamily.roboto,
   fontSize: "24px",
   textDecoration: "none",
 });
