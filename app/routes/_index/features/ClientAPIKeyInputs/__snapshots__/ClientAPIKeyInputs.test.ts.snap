@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button snapshot 1`] = `
+<div>
+  <ul>
+    <div
+      class="styles_box__1f0p34p0"
+    >
+      <p
+        class="styles_p__1f0p34p1"
+      >
+        Client API Keyを入力してください
+      </p>
+      <input
+        class="styles_input__1f0p34p2"
+        placeholder="Client API Key"
+        type="text"
+        value=""
+      />
+      <div
+        class="styles_btnDiv__1f0p34p3"
+      >
+        <button
+          class="styles_button__1f0p34p4"
+        >
+          キャンセル
+        </button>
+        <button
+          class="styles_button__1f0p34p4"
+        >
+          保存
+        </button>
+      </div>
+    </div>
+  </ul>
+</div>
+`;
