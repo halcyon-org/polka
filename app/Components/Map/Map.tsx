@@ -1,42 +1,24 @@
 import { type ReactNode } from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
-
-const containerStyle = {
-  width: "108rem",
-  height: "50.7rem",
-};
-
-const center = {
-  lat: 34.8503, // 東京の緯度
-  lng: 136.582, // 東京の経度
-};
+import * as styles from "./styles.css";
 
 type MapComponentProps = {
   apiKey: string;
+  center: {
+    lat: number;
+    lng: number;
+  };
 };
 
-const MapComponent = ({ apiKey }: MapComponentProps): ReactNode => {
+const Map = ({ apiKey, center }: MapComponentProps): ReactNode => {
   return (
     <LoadScript googleMapsApiKey={apiKey}>
       <GoogleMap
-        mapContainerStyle={containerStyle}
+        mapContainerStyle={styles.containerStyle}
         center={center}
         zoom={15}
       ></GoogleMap>
     </LoadScript>
   );
 };
-
-export const Map = ({ apiKey }: MapComponentProps): ReactNode => {
-  if (!apiKey) {
-    return <p>Google Maps APIキーが設定されていません。</p>;
-  }
-
-  return (
-    <div>
-      <MapComponent apiKey={apiKey} />
-    </div>
-  );
-};
-
 export default Map;
