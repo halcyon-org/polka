@@ -14,7 +14,7 @@ export const header = style({
   justifyContent: "space-between", // 左右の要素を分ける
   alignItems: "center",
   padding: "31px 40px",
-  backgroundColor: colors.background,
+  backgroundColor: vars.color.background,
   position: "fixed",
   top: 0,
   width: "100%",
