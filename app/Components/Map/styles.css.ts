@@ -1,5 +1,3 @@
-import { style } from "@vanilla-extract/css";
-
 export const containerStyle ={
   width: "108rem",
   height: "50.7rem",
