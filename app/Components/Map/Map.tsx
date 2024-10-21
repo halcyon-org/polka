@@ -19,7 +19,6 @@ const MapComponent = ({ apiKey }: MapComponentProps): ReactNode => {
 };
 
 export const Map = ({ apiKey }: MapComponentProps): ReactNode => {
-
   return (
     <div>
       <MapComponent apiKey={apiKey} />

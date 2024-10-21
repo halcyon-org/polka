@@ -16,7 +16,9 @@ const config: StorybookConfig = {
   viteFinal: async (config) => {
     config.define = {
       ...config.define,
-      'process.env.GOOGLE_MAPS_API_KEY': JSON.stringify(process.env.GOOGLE_MAPS_API_KEY),
+      "process.env.GOOGLE_MAPS_API_KEY": JSON.stringify(
+        process.env.GOOGLE_MAPS_API_KEY,
+      ),
     };
     return config;
   },
