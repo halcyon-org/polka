@@ -28,7 +28,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./app/*"],
+      "content-collection": ["./.server/content-collection/generated"]
     },
     "noEmit": true
   }
