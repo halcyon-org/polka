@@ -1,4 +1,4 @@
-export const containerStyle ={
+export const container ={
   width: "108rem",
   height: "50.7rem",
 };
