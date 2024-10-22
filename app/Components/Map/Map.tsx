@@ -14,7 +14,7 @@ const Map = ({ apiKey, center }: MapComponentProps): ReactNode => {
   return (
     <LoadScript googleMapsApiKey={apiKey}>
       <GoogleMap
-        mapContainerStyle={styles.containerStyle}
+        mapContainerStyle={styles.container}
         center={center}
         zoom={15}
       ></GoogleMap>
