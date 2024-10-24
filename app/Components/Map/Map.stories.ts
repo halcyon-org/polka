@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import  Map  from "./Map";
+import Map from "./Map";
 
 type T = typeof Map;
 
