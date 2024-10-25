@@ -18,6 +18,10 @@ type Story = StoryObj<T>;
 export const Default: Story = {
   args: {
     center: { lat: 34.8503, lng: 136.582 },
+    mapContainerStyle: {
+      width: "640px",
+      height: "480px",
+    },
   },
 };
 

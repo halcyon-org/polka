@@ -1,6 +1,5 @@
-import { type ReactNode } from "react";
+import { CSSProperties, type ReactNode } from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
-import * as styles from "./styles.css";
 
 type MapComponentProps = {
   apiKey: string;
@@ -8,13 +7,18 @@ type MapComponentProps = {
     lat: number;
     lng: number;
   };
+  mapContainerStyle: CSSProperties;
 };
 
-const Map = ({ apiKey, center }: MapComponentProps): ReactNode => {
+const Map = ({
+  apiKey,
+  center,
+  mapContainerStyle,
+}: MapComponentProps): ReactNode => {
   return (
     <LoadScript googleMapsApiKey={apiKey}>
       <GoogleMap
-        mapContainerStyle={styles.container}
+        mapContainerStyle={mapContainerStyle}
         center={center}
         zoom={15}
       ></GoogleMap>
