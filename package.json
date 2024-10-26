@@ -30,7 +30,7 @@
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241018.0",
+    "@cloudflare/workers-types": "^4.20241022.0",
     "@react-google-maps/api": "^2.20.3",
     "@remix-run/dev": "^2.13.1",
     "@shiron-dev/eslint-config": "^1.7.0",
