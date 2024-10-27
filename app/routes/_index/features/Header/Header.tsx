@@ -11,7 +11,7 @@ export function Header(): ReactNode {
       <nav className={styles.headerMenu}>
         <ul className={styles.menu}>
           <li>
-            <Link to="" className={styles.menuItem}>
+            <Link to="/documents" className={styles.menuItem}>
               利用規約
             </Link>
           </li>

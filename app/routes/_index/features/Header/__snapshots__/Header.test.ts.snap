@@ -22,7 +22,7 @@ exports[`Button snapshot 1`] = `
           <a
             class="styles_menuItem__641t014"
             data-discover="true"
-            href="/"
+            href="/documents"
           >
             利用規約
           </a>
