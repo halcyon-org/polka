@@ -2,16 +2,21 @@ import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
 export const header = style({
-  display: "flex",
   width: "100%",
+  background: vars.color.tileBg,
+  padding: "1rem",
+});
+
+export const headerContent = style({
   padding: "1rem 2.5rem",
+  display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  background: vars.color.tileBg,
 });
 
 export const logo = style({
   background: "url('/images/LogoH.svg')",
+  backgroundRepeat: "no-repeat",
 });
 
 export const headerMenu = style({
