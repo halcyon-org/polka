@@ -2,18 +2,19 @@ import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
 export const selectButton = style({
-  display: "flex",
-  width: "894px",
-  padding: "10px",
-  alignItems: "flex-start",
-  gap: "10px",
   background: vars.color.tileBg,
+  display: "inline-flex",
+  width: "auto",
+  height: "auto",
+  padding: "1rem",
+  borderRadius: "0.5rem",
 });
 
 export const Icon = style({
-  content: "url('/images/Layer Button.svg')",
+  background: "url('/images/Layer.svg')",
+  width: "2rem",
+  height: "2rem",
   display: "flex",
   border: "none",
   outline: "none",
-  background: "none",
 });
