@@ -4,7 +4,7 @@ import { expect, test } from "vitest";
 
 import { composeStories } from "@storybook/react";
 
-import * as stories from "./layer.stories";
+import * as stories from "./LayerButton.stories";
 
 const { Default } = composeStories(stories);
 test("Button snapshot", async () => {

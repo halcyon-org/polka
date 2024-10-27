@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { layer } from "./layer";
+import { LayerButton } from "./LayerButton";
 
-type T = typeof layer;
+type T = typeof LayerButton;
 
 const meta: Meta = {
   title: "layer",
-  component: layer,
+  component: LayerButton,
   parameters: {
     layout: "fullscreen",
   },
