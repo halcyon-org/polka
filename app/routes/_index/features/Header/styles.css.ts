@@ -1,13 +1,6 @@
 import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
-// カラーパレットの定義
-const colors = {
-  primary: vars.color,
-  text: vars.color.text,
-  background: vars.color.background,
-};
-
 // ヘッダーコンテナのスタイル
 export const header = style({
   display: "flex",
