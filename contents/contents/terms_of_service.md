@@ -1,5 +1,5 @@
 ---
-title: "terms of service"
+title: "Terms of service"
 summary: "This is terms of service"
 ---
 
