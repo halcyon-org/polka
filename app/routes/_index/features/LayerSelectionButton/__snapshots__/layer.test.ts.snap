@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button snapshot 1`] = `
+<div>
+  <div
+    class="styles_layerFrame__1ritsch0"
+  >
+    <nav
+      class="styles_layerIconFrame__1ritsch3"
+    >
+      <button
+        class="styles_Icon__1ritsch4"
+      />
+    </nav>
+  </div>
+</div>
+`;
