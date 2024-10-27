@@ -29,7 +29,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./app/*"],
-      "content-collection": ["./.server/content-collection/generated"]
+      "content-collections": ["./.content-collections/generated"]
     },
     "noEmit": true
   }
