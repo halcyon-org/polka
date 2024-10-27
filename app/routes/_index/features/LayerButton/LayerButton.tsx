@@ -5,7 +5,7 @@ interface Props {
   onClick: () => void;
 }
 
-export function LayerButton({onClick}:Props): ReactNode {
+export function LayerButton({ onClick }: Props): ReactNode {
   return (
     <div className={styles.selectButton}>
       <button className={styles.Icon} onClick={onClick}></button>
