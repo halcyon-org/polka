@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button snapshot 1`] = `
+<div>
+  <div
+    class="styles_selectButton__pfo0hn0"
+  >
+    <p
+      class="styles_Text__pfo0hn1"
+    >
+      TextTextText
+    </p>
+    <div
+      class="styles_Icons__pfo0hn2"
+    >
+      <button
+        class="styles_InfoIcon__pfo0hn3"
+      />
+      <button
+        class="styles_VisibleIcon__pfo0hn5 styles_VisibilityIcon__pfo0hn4"
+      />
+    </div>
+  </div>
+</div>
+`;
