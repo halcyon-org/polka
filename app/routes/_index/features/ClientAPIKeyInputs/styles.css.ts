@@ -8,7 +8,7 @@ export const box = style({
   width: "400px",
   fontSize: "1.5rem",
   textAlign: "center",
-  background: vars.color.background,
+  background: vars.color.tileBg,
   padding: "1rem 2rem",
   gap: "1rem",
   borderRadius: "1rem",
