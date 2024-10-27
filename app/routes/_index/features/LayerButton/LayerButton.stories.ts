@@ -5,7 +5,7 @@ import { LayerButton } from "./LayerButton";
 type T = typeof LayerButton;
 
 const meta: Meta = {
-  title: "layer",
+  title: "Layer Button",
   component: LayerButton,
   parameters: {
     layout: "fullscreen",
