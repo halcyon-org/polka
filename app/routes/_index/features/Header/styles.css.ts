@@ -1,48 +1,40 @@
 import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
-// ヘッダーコンテナのスタイル
 export const header = style({
   display: "flex",
-  justifyContent: "space-between", // 左右の要素を分ける
-  alignItems: "center",
-  padding: "31px 40px",
-  backgroundColor: vars.color.background,
-  position: "fixed",
-  top: 0,
   width: "100%",
-  height: "auto",
-  zIndex: 1000,
+  padding: "1rem 2.5rem",
+  justifyContent: "space-between",
+  alignItems: "center",
+  background: vars.color.tileBg,
 });
 
-// ロゴのスタイル
-export const logoContainer = style({
-  width: "auto",
-  height: "45px",
-  flexShrink: 0,
+export const logo = style({
+  background: "url('/images/LogoH.svg')",
 });
 
-// ヘッダーメニューのスタイル（ロゴとメニュー）
 export const headerMenu = style({
   display: "flex",
-  alignItems: "center",
   justifyContent: "space-between",
-  width: "100%", // ヘッダーメニュー全体の幅をカバー
+  alignItems: "center",
+  alignSelf: "stretch",
 });
 
-// メニューコンテナのスタイル（右端に配置）
 export const menu = style({
   display: "flex",
-  gap: "20px", // メニュー項目間の間隔
+  justifyContent: "flex-end",
   alignItems: "center",
-  marginLeft: "auto", // 右端に配置
-  listStyle: "none", // リストスタイルをリセット
+  alignSelf: "stretch",
+  listStyleType: "none",
 });
 
-// "使い方" と "利用規約" のスタイル
 export const menuItem = style({
-  color: colors.text,
-  fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "24px",
+  fontSize: "1.5rem",
+  fontStyle: "normal",
+  fontWeight: "400",
+  lineHeight: "normal",
+  textDecorationLine: "underline",
+  color: vars.color.text,
   textDecoration: "none",
 });
