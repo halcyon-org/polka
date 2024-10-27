@@ -19,6 +19,7 @@ export const Text = style({
   fontSize: "1.25rem",
   overflow: "hidden",
   textOverflow: "ellipsis",
+  margin: "0",
 });
 
 export const Icons = style({
