@@ -19,12 +19,18 @@ export default function Page(): ReactNode {
         {contents.map((post) => (
           <div key={post._meta.path}>
             <h2 className={styles.header}>{post.title}</h2>
-            <p className={styles.content}>{post.content.split("\n").map((v) => {
-              const count = v.split("#").length;
-              if (!count || 0 >= count || count > 6) return v;
-              const Head = `h${count}` as ElementType;
-              return v.startsWith("#") ? <Head className={styles.header}>{v}</Head> : v;
-            })}</p>
+            <p className={styles.content}>
+              {post.content.split("\n").map((v) => {
+                const count = v.split("#").length;
+                if (!count || 0 >= count || count > 6) return v;
+                const Head = `h${count}` as ElementType;
+                return v.startsWith("#") ? (
+                  <Head className={styles.header}>{v}</Head>
+                ) : (
+                  v
+                );
+              })}
+            </p>
           </div>
         ))}
       </ul>
