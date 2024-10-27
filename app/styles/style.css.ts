@@ -6,7 +6,4 @@ globalStyle("html, body", {
   fontFamily: vars.typography.fontFamily.roboto,
   margin: 0,
   padding: 0,
-  width: "1440px",
-  maxWidth: "1440px",
-  minWidth: "1440px",
 });
