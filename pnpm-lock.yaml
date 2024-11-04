@@ -30,7 +30,7 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       storybook:
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(prettier@3.3.3)
       the-new-css-reset:
         specifier: ^1.11.3
@@ -55,28 +55,28 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(jest@29.7.0(@types/node@22.7.4))(tailwindcss@3.4.13)(typescript@5.6.3)
       '@storybook/addon-essentials':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(@types/react@18.3.12)(storybook@8.4.1(prettier@3.3.3))
       '@storybook/addon-interactions':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(storybook@8.4.1(prettier@3.3.3))
       '@storybook/addon-links':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(react@18.3.1)(storybook@8.4.1(prettier@3.3.3))
       '@storybook/addon-onboarding':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(react@18.3.1)(storybook@8.4.1(prettier@3.3.3))
       '@storybook/blocks':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.1(prettier@3.3.3))
       '@storybook/react':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(@storybook/test@8.4.1(storybook@8.4.1(prettier@3.3.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.1(prettier@3.3.3))(typescript@5.6.3)
       '@storybook/react-vite':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(@storybook/test@8.4.1(storybook@8.4.1(prettier@3.3.3)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.23.0)(storybook@8.4.1(prettier@3.3.3))(typescript@5.6.3)(vite@5.4.10(@types/node@22.7.4))
       '@storybook/test':
-        specifier: ^8.4.0
+        specifier: ^8.4.1
         version: 8.4.1(storybook@8.4.1(prettier@3.3.3))
       '@storybook/test-runner':
         specifier: ^0.19.1
