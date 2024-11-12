@@ -6,7 +6,7 @@ export function Header(): ReactNode {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/images//LogoH.svg" />
+        <img src="/images/LogoH.svg" />
       </div>
       <nav className={styles.headerMenu}>
         <ul className={styles.menu}>

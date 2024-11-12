@@ -6,21 +6,21 @@ exports[`Button snapshot 1`] = `
     class="styles_header__641t010"
   >
     <div
-      class="styles_logo__641t011"
+      class="styles_logo__641t012"
     >
       <img
-        src="/images//LogoH.svg"
+        src="/images/LogoH.svg"
       />
     </div>
     <nav
-      class="styles_headerMenu__641t012"
+      class="styles_headerMenu__641t013"
     >
       <ul
-        class="styles_menu__641t013"
+        class="styles_menu__641t014"
       >
         <li>
           <a
-            class="styles_menuItem__641t014"
+            class="styles_menuItem__641t015"
             data-discover="true"
             href="/documents"
           >
